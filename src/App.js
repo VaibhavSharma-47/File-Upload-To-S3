@@ -20,7 +20,7 @@ class App extends Component {
       this.state.selectedFile.name
     )
     // Call API
-    Axios.post("https://x52rbg6h5k.execute-api.us-east-1.amazonaws.com/PrdDeploy/file-upload", formData).then(()=>{
+    Axios.post("## YOUR END POINT HERE ##", formData).then(()=>{
       console.log(formData);
       this.setState({ selectedFile: null });
       this.setState({ fileUploadedSuccess: true });
