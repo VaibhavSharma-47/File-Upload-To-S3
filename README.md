@@ -5,7 +5,7 @@ A file upload system on AWS with React.js in the frontend and a Serverless API i
 
 Use npm install to install dependencies and npm start to start the front end;
 
-Use the code in lambda folder to create lambda on AWS. Create a API gateway with a and replace the end point in the Axios.post() with yours.
+Use the code in lambda folder to create lambda on AWS. Create an API gateway with a POST endpoint and replace the end point in the Axios.post() with yours.
 
 Create a s3 bucket and replace fileUploadPath in the index.js and create appropirate IAM policies to allow lambda to write to S#.
 
